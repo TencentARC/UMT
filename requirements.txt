@@ -1,0 +1,5 @@
+scikit-learn>=1.0
+torch>=1.11
+torchtext>=0.12
+torchvision>=0.12
+nncore>=0.3.6
