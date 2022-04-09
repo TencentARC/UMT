@@ -1,8 +1,9 @@
 # Unified Multi-modal Transformers
 
-![License](https://img.shields.io/badge/license-BSD%203--Clause%20License-blue)
+[![arXiv](https://badgen.net/badge/arXiv/2203.12745/red?cache=300)](https://arxiv.org/abs/2203.12745)
+[![License](https://badgen.net/badge/License/BSD%203-Clause%20License?cache=300)](https://github.com/TencentARC/UMT/blob/main/LICENSE)
 
-This repository maintains the official implementation of the paper **UMT: Unified Multi-modal Transformers for Joint Video Moment Retrieval and Highlight Detection** by [Ye Liu](https://yeliu.me/), Siyuan Li, [Yang Wu](https://scholar.google.com/citations?user=vwOQ-UIAAAAJ), [Chang Wen Chen](https://www4.comp.polyu.edu.hk/~chencw/), [Ying Shan](https://scholar.google.com/citations?user=4oXBp9UAAAAJ), and [Xiaohu Qie](https://scholar.google.com/citations?user=mk-F69UAAAAJ), which has been accepted by [CVPR 2022](https://cvpr2022.thecvf.com/). The arXiv version of the paper can be found [Here](https://arxiv.org/abs/2203.12745). 
+This repository maintains the official implementation of the paper **UMT: Unified Multi-modal Transformers for Joint Video Moment Retrieval and Highlight Detection** by [Ye Liu](https://yeliu.me/), Siyuan Li, [Yang Wu](https://scholar.google.com/citations?user=vwOQ-UIAAAAJ), [Chang Wen Chen](https://www4.comp.polyu.edu.hk/~chencw/), [Ying Shan](https://scholar.google.com/citations?user=4oXBp9UAAAAJ), and [Xiaohu Qie](https://scholar.google.com/citations?user=mk-F69UAAAAJ), which has been accepted by [CVPR 2022](https://cvpr2022.thecvf.com/).
 
 <p align="center"><img width="850" src="https://raw.githubusercontent.com/TencentARC/UMT/main/.github/model.svg"></p>
 

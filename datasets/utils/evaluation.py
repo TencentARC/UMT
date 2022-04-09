@@ -1,8 +1,4 @@
-# -----------------------------------------------------
-# Unified Multi-modal Transformers
-# Licensed under the GNU General Public License v3.0
 # Modified from https://github.com/jayleicn/moment_detr
-# -----------------------------------------------------
 
 import multiprocessing as mp
 from collections import OrderedDict, defaultdict

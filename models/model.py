@@ -1,3 +1,5 @@
+# Copyright (c) THL A29 Limited, a Tencent company. All rights reserved.
+
 import torch
 import torch.nn as nn
 from nncore.nn import MODELS, build_model, xavier_init_

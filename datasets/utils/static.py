@@ -1,3 +1,5 @@
+# Copyright (c) THL A29 Limited, a Tencent company. All rights reserved.
+
 YOUTUBE_SPLITS = {
     'dog': {
         'train': [

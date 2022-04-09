@@ -1,3 +1,5 @@
+# Copyright (c) THL A29 Limited, a Tencent company. All rights reserved.
+
 import nncore
 import torch
 import torch.nn as nn
@@ -114,13 +116,12 @@ class CharadesSTA(Dataset):
                     bnd = nncore.swap_element(bnd, i, max_idx + i)
                     iou = temporal_iou(bnd[i, None, :-1], bnd[i + 1:, :-1])[0]
 
-                    match method:
-                        case 'normal':
-                            bnd[i + 1:, -1][iou >= nms_thr] = 0
-                        case 'linear':
-                            bnd[i + 1:, -1] *= 1 - iou
-                        case 'gaussian':
-                            bnd[i + 1:, -1] *= (-iou.pow(2) / sigma).exp()
+                    if method == 'normal':
+                        bnd[i + 1:, -1][iou >= nms_thr] = 0
+                    elif method == 'linear':
+                        bnd[i + 1:, -1] *= 1 - iou
+                    else:
+                        bnd[i + 1:, -1] *= (-iou.pow(2) / sigma).exp()
 
             boundary.append(bnd)
 

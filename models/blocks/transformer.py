@@ -1,3 +1,5 @@
+# Copyright (c) THL A29 Limited, a Tencent company. All rights reserved.
+
 import torch.nn as nn
 from nncore.nn import (MODELS, FeedForwardNetwork, MultiHeadAttention,
                        Parameter, build_norm_layer)

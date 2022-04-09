@@ -1,3 +1,5 @@
+# Copyright (c) THL A29 Limited, a Tencent company. All rights reserved.
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F

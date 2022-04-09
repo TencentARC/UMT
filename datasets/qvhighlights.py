@@ -1,3 +1,5 @@
+# Copyright (c) THL A29 Limited, a Tencent company. All rights reserved.
+
 import nncore
 import torch
 from nncore.dataset import DATASETS
