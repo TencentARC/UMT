@@ -22,9 +22,8 @@ class QueryGenerator(nn.Module):
     def forward(self, x, mem=None, **kwargs):
         if mem is None:
             mem = x.new_zeros(x.size(0), 10, x.size(2))
-        else:
-            mem[~mem.isfinite()] = 0
         mask = torch.where(mem[:, :, 0].isfinite(), 1, 0)
+        mem[~mem.isfinite()] = 0
         if self.dropout is not None:
             mem = self.dropout(mem)
         if self.mapping is not None:
