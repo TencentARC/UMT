@@ -387,6 +387,7 @@ If you find this project useful for your research, please kindly cite our paper.
   title={UMT: Unified Multi-modal Transformers for Joint Video Moment Retrieval and Highlight Detection},
   author={Liu, Ye and Li, Siyuan and Wu, Yang and Chen, Chang Wen and Shan, Ying and Qie, Xiaohu},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages={3042--3051},
   year={2022}
 }
 ```
