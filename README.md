@@ -39,10 +39,10 @@ pip install -r requirements.txt
 
 1. Download and extract the datasets.
 
-- [QVHighlights](https://connectpolyu-my.sharepoint.com/:u:/g/personal/21039533r_connect_polyu_hk/EVyfPQmNEfxCpvWO3Lp-6NkBld4GHGH8sPj1ZVkx4ScKNg?e=LRS0gQ)
-- [Charades-STA](https://connectpolyu-my.sharepoint.com/:u:/g/personal/21039533r_connect_polyu_hk/EXq0dTx1exhBimH1S4JDqtoBt2hj2gC3tazWHMMaBDNK8Q?e=9pIeav)
-- [YouTube Highlights](https://connectpolyu-my.sharepoint.com/:u:/g/personal/21039533r_connect_polyu_hk/EWv-_88eTGZJr0VwUp51NbABbcQe8BBM4VWOipghje79aQ?e=MbJpgn)
-- [TVSum](https://connectpolyu-my.sharepoint.com/:u:/g/personal/21039533r_connect_polyu_hk/ESH3Wx6l-kBGmRvf2dfplesBaq4SJp9SxKyYypEO7UKVOA?e=1Naroo)
+- [QVHighlights](https://huggingface.co/yeliudev/UMT/resolve/main/datasets/qvhighlights-a8559488.zip)
+- [Charades-STA](https://huggingface.co/yeliudev/UMT/resolve/main/datasets/charades-2c9f7bab.zip)
+- [YouTube Highlights](https://huggingface.co/yeliudev/UMT/resolve/main/datasets/youtube-8a12ff08.zip)
+- [TVSum](https://huggingface.co/yeliudev/UMT/resolve/main/datasets/tvsum-ec05ad4e.zip)
 
 2. Prepare the files in the following structure.
 
@@ -129,8 +129,8 @@ We provide multiple pre-trained models and training logs here. All the models ar
     <td align="center" colspan="2">38.59</td>
     <td align="center" colspan="2">39.85</td>
     <td align="center">
-      <a href="https://dl.catcatdev.com/umt/umt_base_200e_qvhighlights-9a13c673.pth">model</a> |
-      <a href="https://dl.catcatdev.com/umt/umt_base_200e_qvhighlights.json">metrics</a>
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_base_200e_qvhighlights-9a13c673.pth">model</a> |
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_base_200e_qvhighlights.json">metrics</a>
     </td>
   </tr>
   <tr>
@@ -141,8 +141,8 @@ We provide multiple pre-trained models and training logs here. All the models ar
     <td align="center" colspan="2">39.26</td>
     <td align="center" colspan="2">40.10</td>
     <td align="center">
-      <a href="https://dl.catcatdev.com/umt/umt_base_finetune_200e_qvhighlights-d674a657.pth">model</a> |
-      <a href="https://dl.catcatdev.com/umt/umt_base_finetune_200e_qvhighlights.json">metrics</a>
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_base_finetune_200e_qvhighlights-d674a657.pth">model</a> |
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_base_finetune_200e_qvhighlights.json">metrics</a>
     </td>
   </tr>
   <tr>
@@ -158,8 +158,8 @@ We provide multiple pre-trained models and training logs here. All the models ar
     <td align="center">88.79</td>
     <td align="center">56.08</td>
     <td align="center">
-      <a href="https://dl.catcatdev.com/umt/umt_base_va_100e_charades-b51a65aa.pth">model</a> |
-      <a href="https://dl.catcatdev.com/umt/umt_base_va_100e_charades.json">metrics</a>
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_base_va_100e_charades-b51a65aa.pth">model</a> |
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_base_va_100e_charades.json">metrics</a>
     </td>
   </tr>
   <tr>
@@ -172,8 +172,8 @@ We provide multiple pre-trained models and training logs here. All the models ar
     <td align="center">89.41</td>
     <td align="center">54.95</td>
     <td align="center">
-      <a href="https://dl.catcatdev.com/umt/umt_base_vo_100e_charades-39ec9829.pth">model</a> |
-      <a href="https://dl.catcatdev.com/umt/umt_base_vo_100e_charades.json">metrics</a>
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_base_vo_100e_charades-39ec9829.pth">model</a> |
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_base_vo_100e_charades.json">metrics</a>
     </td>
   </tr>
   <tr>
@@ -187,8 +187,8 @@ We provide multiple pre-trained models and training logs here. All the models ar
     <td align="center" colspan="2">—</td>
     <td align="center" colspan="2">65.93</td>
     <td align="center">
-      <a href="https://dl.catcatdev.com/umt/umt_small_100e_youtube_dog-90f2189e.pth">model</a> |
-      <a href="https://dl.catcatdev.com/umt/umt_small_100e_youtube_dog.json">metrics</a>
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_small_100e_youtube_dog-90f2189e.pth">model</a> |
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_small_100e_youtube_dog.json">metrics</a>
     </td>
   </tr>
   <tr>
@@ -199,8 +199,8 @@ We provide multiple pre-trained models and training logs here. All the models ar
     <td align="center" colspan="2">—</td>
     <td align="center" colspan="2">75.20</td>
     <td align="center">
-      <a href="https://dl.catcatdev.com/umt/umt_small_100e_youtube_gym-fe749774.pth">model</a> |
-      <a href="https://dl.catcatdev.com/umt/umt_small_100e_youtube_gym.json">metrics</a>
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_small_100e_youtube_gym-fe749774.pth">model</a> |
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_small_100e_youtube_gym.json">metrics</a>
     </td>
   </tr>
   <tr>
@@ -211,8 +211,8 @@ We provide multiple pre-trained models and training logs here. All the models ar
     <td align="center" colspan="2">—</td>
     <td align="center" colspan="2">81.64</td>
     <td align="center">
-      <a href="https://dl.catcatdev.com/umt/umt_small_100e_youtube_par-4d8a9e8b.pth">model</a> |
-      <a href="https://dl.catcatdev.com/umt/umt_small_100e_youtube_par.json">metrics</a>
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_small_100e_youtube_par-4d8a9e8b.pth">model</a> |
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_small_100e_youtube_par.json">metrics</a>
     </td>
   </tr>
   <tr>
@@ -223,8 +223,8 @@ We provide multiple pre-trained models and training logs here. All the models ar
     <td align="center" colspan="2">—</td>
     <td align="center" colspan="2">71.81</td>
     <td align="center">
-      <a href="https://dl.catcatdev.com/umt/umt_small_100e_youtube_ska-f12710a8.pth">model</a> |
-      <a href="https://dl.catcatdev.com/umt/umt_small_100e_youtube_ska.json">metrics</a>
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_small_100e_youtube_ska-f12710a8.pth">model</a> |
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_small_100e_youtube_ska.json">metrics</a>
     </td>
   </tr>
   <tr>
@@ -235,8 +235,8 @@ We provide multiple pre-trained models and training logs here. All the models ar
     <td align="center" colspan="2">—</td>
     <td align="center" colspan="2">72.27</td>
     <td align="center">
-      <a href="https://dl.catcatdev.com/umt/umt_small_100e_youtube_ski-1ca38d91.pth">model</a> |
-      <a href="https://dl.catcatdev.com/umt/umt_small_100e_youtube_ski.json">metrics</a>
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_small_100e_youtube_ski-1ca38d91.pth">model</a> |
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_small_100e_youtube_ski.json">metrics</a>
     </td>
   </tr>
   <tr>
@@ -247,8 +247,8 @@ We provide multiple pre-trained models and training logs here. All the models ar
     <td align="center" colspan="2">—</td>
     <td align="center" colspan="2">82.71</td>
     <td align="center">
-      <a href="https://dl.catcatdev.com/umt/umt_small_100e_youtube_sur-9be4b575.pth">model</a> |
-      <a href="https://dl.catcatdev.com/umt/umt_small_100e_youtube_sur.json">metrics</a>
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_small_100e_youtube_sur-9be4b575.pth">model</a> |
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_small_100e_youtube_sur.json">metrics</a>
     </td>
   </tr>
   <tr>
@@ -262,8 +262,8 @@ We provide multiple pre-trained models and training logs here. All the models ar
     <td align="center" colspan="2">—</td>
     <td align="center" colspan="2">87.54</td>
     <td align="center">
-      <a href="https://dl.catcatdev.com/umt/umt_small_500e_tvsum_vt-3eff6e1b.pth">model</a> |
-      <a href="https://dl.catcatdev.com/umt/umt_small_500e_tvsum_vt.json">metrics</a>
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_small_500e_tvsum_vt-3eff6e1b.pth">model</a> |
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_small_500e_tvsum_vt.json">metrics</a>
     </td>
   </tr>
   <tr>
@@ -274,8 +274,8 @@ We provide multiple pre-trained models and training logs here. All the models ar
     <td align="center" colspan="2">—</td>
     <td align="center" colspan="2">81.51</td>
     <td align="center">
-      <a href="https://dl.catcatdev.com/umt/umt_small_500e_tvsum_vu-ea40b5ee.pth">model</a> |
-      <a href="https://dl.catcatdev.com/umt/umt_small_500e_tvsum_vu.json">metrics</a>
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_small_500e_tvsum_vu-ea40b5ee.pth">model</a> |
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_small_500e_tvsum_vu.json">metrics</a>
     </td>
   </tr>
   <tr>
@@ -286,8 +286,8 @@ We provide multiple pre-trained models and training logs here. All the models ar
     <td align="center" colspan="2">—</td>
     <td align="center" colspan="2">88.22</td>
     <td align="center">
-      <a href="https://dl.catcatdev.com/umt/umt_small_500e_tvsum_ga-7217ee96.pth">model</a> |
-      <a href="https://dl.catcatdev.com/umt/umt_small_500e_tvsum_ga.json">metrics</a>
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_small_500e_tvsum_ga-7217ee96.pth">model</a> |
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_small_500e_tvsum_ga.json">metrics</a>
     </td>
   </tr>
   <tr>
@@ -298,8 +298,8 @@ We provide multiple pre-trained models and training logs here. All the models ar
     <td align="center" colspan="2">—</td>
     <td align="center" colspan="2">78.81</td>
     <td align="center">
-      <a href="https://dl.catcatdev.com/umt/umt_small_500e_tvsum_ms-a41636ac.pth">model</a> |
-      <a href="https://dl.catcatdev.com/umt/umt_small_500e_tvsum_ms.json">metrics</a>
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_small_500e_tvsum_ms-a41636ac.pth">model</a> |
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_small_500e_tvsum_ms.json">metrics</a>
     </td>
   </tr>
   <tr>
@@ -310,8 +310,8 @@ We provide multiple pre-trained models and training logs here. All the models ar
     <td align="center" colspan="2">—</td>
     <td align="center" colspan="2">81.42</td>
     <td align="center">
-      <a href="https://dl.catcatdev.com/umt/umt_small_500e_tvsum_pk-4ea24b6c.pth">model</a> |
-      <a href="https://dl.catcatdev.com/umt/umt_small_500e_tvsum_pk.json">metrics</a>
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_small_500e_tvsum_pk-4ea24b6c.pth">model</a> |
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_small_500e_tvsum_pk.json">metrics</a>
     </td>
   </tr>
   <tr>
@@ -322,8 +322,8 @@ We provide multiple pre-trained models and training logs here. All the models ar
     <td align="center" colspan="2">—</td>
     <td align="center" colspan="2">86.96</td>
     <td align="center">
-      <a href="https://dl.catcatdev.com/umt/umt_small_500e_tvsum_pr-815f527a.pth">model</a> |
-      <a href="https://dl.catcatdev.com/umt/umt_small_500e_tvsum_pr.json">metrics</a>
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_small_500e_tvsum_pr-815f527a.pth">model</a> |
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_small_500e_tvsum_pr.json">metrics</a>
     </td>
   </tr>
   <tr>
@@ -334,8 +334,8 @@ We provide multiple pre-trained models and training logs here. All the models ar
     <td align="center" colspan="2">—</td>
     <td align="center" colspan="2">75.96</td>
     <td align="center">
-      <a href="https://dl.catcatdev.com/umt/umt_small_500e_tvsum_fm-cf6ebb1d.pth">model</a> |
-      <a href="https://dl.catcatdev.com/umt/umt_small_500e_tvsum_fm.json">metrics</a>
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_small_500e_tvsum_fm-cf6ebb1d.pth">model</a> |
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_small_500e_tvsum_fm.json">metrics</a>
     </td>
   </tr>
   <tr>
@@ -346,8 +346,8 @@ We provide multiple pre-trained models and training logs here. All the models ar
     <td align="center" colspan="2">—</td>
     <td align="center" colspan="2">86.89</td>
     <td align="center">
-      <a href="https://dl.catcatdev.com/umt/umt_small_500e_tvsum_bk-12c75dff.pth">model</a> |
-      <a href="https://dl.catcatdev.com/umt/umt_small_500e_tvsum_bk.json">metrics</a>
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_small_500e_tvsum_bk-12c75dff.pth">model</a> |
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_small_500e_tvsum_bk.json">metrics</a>
     </td>
   </tr>
   <tr>
@@ -358,8 +358,8 @@ We provide multiple pre-trained models and training logs here. All the models ar
     <td align="center" colspan="2">—</td>
     <td align="center" colspan="2">84.42</td>
     <td align="center">
-      <a href="https://dl.catcatdev.com/umt/umt_small_500e_tvsum_bt-3b666738.pth">model</a> |
-      <a href="https://dl.catcatdev.com/umt/umt_small_500e_tvsum_bt.json">metrics</a>
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_small_500e_tvsum_bt-3b666738.pth">model</a> |
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_small_500e_tvsum_bt.json">metrics</a>
     </td>
   </tr>
   <tr>
@@ -370,13 +370,13 @@ We provide multiple pre-trained models and training logs here. All the models ar
     <td align="center" colspan="2">—</td>
     <td align="center" colspan="2">79.63</td>
     <td align="center">
-      <a href="https://dl.catcatdev.com/umt/umt_small_500e_tvsum_ds-55549243.pth">model</a> |
-      <a href="https://dl.catcatdev.com/umt/umt_small_500e_tvsum_ds.json">metrics</a>
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_small_500e_tvsum_ds-55549243.pth">model</a> |
+      <a href="https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_small_500e_tvsum_ds.json">metrics</a>
     </td>
   </tr>
 </table>
 
-Here, `w/ PT` means initializing the model using pre-trained [weights](https://dl.catcatdev.com/umt/umt_base_pretrain_100e_asr-ebae4090.pth) on ASR captions. `V`, `A`, and `O` indicate video, audio, and optical flow, respectively.
+Here, `w/ PT` means initializing the model using pre-trained [weights](https://huggingface.co/yeliudev/UMT/resolve/main/checkpoints/umt_base_pretrain_100e_asr-ebae4090.pth) on ASR captions. `V`, `A`, and `O` indicate video, audio, and optical flow, respectively.
 
 ## Citation
 
