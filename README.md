@@ -123,7 +123,7 @@ We provide multiple pre-trained models and training logs here. All the models ar
       <a href="https://arxiv.org/abs/2107.09609">QVHighlights</a>
     </td>
     <td align="center">
-      <a href="https://github.com/TencentARC/UMT/configs/qvhighlights/umt_base_200e_qvhighlights.py">UMT-B</a>
+      <a href="https://github.com/TencentARC/UMT/blob/main/configs/qvhighlights/umt_base_200e_qvhighlights.py">UMT-B</a>
     </td>
     <td align="center">—</td>
     <td align="center" colspan="2">38.59</td>
@@ -135,7 +135,7 @@ We provide multiple pre-trained models and training logs here. All the models ar
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/TencentARC/UMT/configs/qvhighlights/umt_base_200e_qvhighlights.py">UMT-B</a>
+      <a href="https://github.com/TencentARC/UMT/blob/main/configs/qvhighlights/umt_base_200e_qvhighlights.py">UMT-B</a>
     </td>
     <td align="center">w/ PT</td>
     <td align="center" colspan="2">39.26</td>
@@ -150,7 +150,7 @@ We provide multiple pre-trained models and training logs here. All the models ar
       <a href="https://arxiv.org/abs/1705.02101">Charades-STA</a>
     </td>
     <td align="center">
-      <a href="https://github.com/TencentARC/UMT/configs/charades/umt_base_va_100e_charades.py">UMT-B</a>
+      <a href="https://github.com/TencentARC/UMT/blob/main/configs/charades/umt_base_va_100e_charades.py">UMT-B</a>
     </td>
     <td align="center">V + A</td>
     <td align="center">48.31</td>
@@ -164,7 +164,7 @@ We provide multiple pre-trained models and training logs here. All the models ar
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/TencentARC/UMT/configs/charades/umt_base_vo_100e_charades.py">UMT-B</a>
+      <a href="https://github.com/TencentARC/UMT/blob/main/configs/charades/umt_base_vo_100e_charades.py">UMT-B</a>
     </td>
     <td align="center">V + O</td>
     <td align="center">49.35</td>
@@ -181,7 +181,7 @@ We provide multiple pre-trained models and training logs here. All the models ar
       <a href="https://doi.org/10.1007/978-3-319-10590-1_51">YouTube<br>Highlights</a>
     </td>
     <td align="center">
-      <a href="https://github.com/TencentARC/UMT/configs/youtube/umt_small_100e_youtube_dog.py">UMT-S</a>
+      <a href="https://github.com/TencentARC/UMT/blob/main/configs/youtube/umt_small_100e_youtube_dog.py">UMT-S</a>
     </td>
     <td align="center">Dog</td>
     <td align="center" colspan="2">—</td>
@@ -193,7 +193,7 @@ We provide multiple pre-trained models and training logs here. All the models ar
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/TencentARC/UMT/configs/youtube/umt_small_100e_youtube_gym.py">UMT-S</a>
+      <a href="https://github.com/TencentARC/UMT/blob/main/configs/youtube/umt_small_100e_youtube_gym.py">UMT-S</a>
     </td>
     <td align="center">Gymnastics</td>
     <td align="center" colspan="2">—</td>
@@ -205,7 +205,7 @@ We provide multiple pre-trained models and training logs here. All the models ar
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/TencentARC/UMT/configs/youtube/umt_small_100e_youtube_par.py">UMT-S</a>
+      <a href="https://github.com/TencentARC/UMT/blob/main/configs/youtube/umt_small_100e_youtube_par.py">UMT-S</a>
     </td>
     <td align="center">Parkour</td>
     <td align="center" colspan="2">—</td>
@@ -217,7 +217,7 @@ We provide multiple pre-trained models and training logs here. All the models ar
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/TencentARC/UMT/configs/youtube/umt_small_100e_youtube_ska.py">UMT-S</a>
+      <a href="https://github.com/TencentARC/UMT/blob/main/configs/youtube/umt_small_100e_youtube_ska.py">UMT-S</a>
     </td>
     <td align="center">Skating</td>
     <td align="center" colspan="2">—</td>
@@ -229,7 +229,7 @@ We provide multiple pre-trained models and training logs here. All the models ar
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/TencentARC/UMT/configs/youtube/umt_small_100e_youtube_ski.py">UMT-S</a>
+      <a href="https://github.com/TencentARC/UMT/blob/main/configs/youtube/umt_small_100e_youtube_ski.py">UMT-S</a>
     </td>
     <td align="center">Skiing</td>
     <td align="center" colspan="2">—</td>
@@ -241,7 +241,7 @@ We provide multiple pre-trained models and training logs here. All the models ar
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/TencentARC/UMT/configs/youtube/umt_small_100e_youtube_sur.py">UMT-S</a>
+      <a href="https://github.com/TencentARC/UMT/blob/main/configs/youtube/umt_small_100e_youtube_sur.py">UMT-S</a>
     </td>
     <td align="center">Surfing</td>
     <td align="center" colspan="2">—</td>
@@ -256,7 +256,7 @@ We provide multiple pre-trained models and training logs here. All the models ar
       <a href="https://doi.org/10.1109/cvpr.2015.7299154">TVSum</a>
     </td>
     <td align="center">
-      <a href="https://github.com/TencentARC/UMT/configs/tvsum/umt_small_500e_tvsum_vt.py">UMT-S</a>
+      <a href="https://github.com/TencentARC/UMT/blob/main/configs/tvsum/umt_small_500e_tvsum_vt.py">UMT-S</a>
     </td>
     <td align="center">VT</td>
     <td align="center" colspan="2">—</td>
@@ -268,7 +268,7 @@ We provide multiple pre-trained models and training logs here. All the models ar
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/TencentARC/UMT/configs/tvsum/umt_small_500e_tvsum_vu.py">UMT-S</a>
+      <a href="https://github.com/TencentARC/UMT/blob/main/configs/tvsum/umt_small_500e_tvsum_vu.py">UMT-S</a>
     </td>
     <td align="center">VU</td>
     <td align="center" colspan="2">—</td>
@@ -280,7 +280,7 @@ We provide multiple pre-trained models and training logs here. All the models ar
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/TencentARC/UMT/configs/tvsum/umt_small_500e_tvsum_ga.py">UMT-S</a>
+      <a href="https://github.com/TencentARC/UMT/blob/main/configs/tvsum/umt_small_500e_tvsum_ga.py">UMT-S</a>
     </td>
     <td align="center">GA</td>
     <td align="center" colspan="2">—</td>
@@ -292,7 +292,7 @@ We provide multiple pre-trained models and training logs here. All the models ar
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/TencentARC/UMT/configs/tvsum/umt_small_500e_tvsum_ms.py">UMT-S</a>
+      <a href="https://github.com/TencentARC/UMT/blob/main/configs/tvsum/umt_small_500e_tvsum_ms.py">UMT-S</a>
     </td>
     <td align="center">MS</td>
     <td align="center" colspan="2">—</td>
@@ -304,7 +304,7 @@ We provide multiple pre-trained models and training logs here. All the models ar
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/TencentARC/UMT/configs/tvsum/umt_small_500e_tvsum_pk.py">UMT-S</a>
+      <a href="https://github.com/TencentARC/UMT/blob/main/configs/tvsum/umt_small_500e_tvsum_pk.py">UMT-S</a>
     </td>
     <td align="center">PK</td>
     <td align="center" colspan="2">—</td>
@@ -316,7 +316,7 @@ We provide multiple pre-trained models and training logs here. All the models ar
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/TencentARC/UMT/configs/tvsum/umt_small_500e_tvsum_pr.py">UMT-S</a>
+      <a href="https://github.com/TencentARC/UMT/blob/main/configs/tvsum/umt_small_500e_tvsum_pr.py">UMT-S</a>
     </td>
     <td align="center">PR</td>
     <td align="center" colspan="2">—</td>
@@ -328,7 +328,7 @@ We provide multiple pre-trained models and training logs here. All the models ar
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/TencentARC/UMT/configs/tvsum/umt_small_500e_tvsum_fm.py">UMT-S</a>
+      <a href="https://github.com/TencentARC/UMT/blob/main/configs/tvsum/umt_small_500e_tvsum_fm.py">UMT-S</a>
     </td>
     <td align="center">FM</td>
     <td align="center" colspan="2">—</td>
@@ -340,7 +340,7 @@ We provide multiple pre-trained models and training logs here. All the models ar
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/TencentARC/UMT/configs/tvsum/umt_small_500e_tvsum_bk.py">UMT-S</a>
+      <a href="https://github.com/TencentARC/UMT/blob/main/configs/tvsum/umt_small_500e_tvsum_bk.py">UMT-S</a>
     </td>
     <td align="center">BK</td>
     <td align="center" colspan="2">—</td>
@@ -352,7 +352,7 @@ We provide multiple pre-trained models and training logs here. All the models ar
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/TencentARC/UMT/configs/tvsum/umt_small_500e_tvsum_bt.py">UMT-S</a>
+      <a href="https://github.com/TencentARC/UMT/blob/main/configs/tvsum/umt_small_500e_tvsum_bt.py">UMT-S</a>
     </td>
     <td align="center">BT</td>
     <td align="center" colspan="2">—</td>
@@ -364,7 +364,7 @@ We provide multiple pre-trained models and training logs here. All the models ar
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/TencentARC/UMT/configs/tvsum/umt_small_500e_tvsum_ds.py">UMT-S</a>
+      <a href="https://github.com/TencentARC/UMT/blob/main/configs/tvsum/umt_small_500e_tvsum_ds.py">UMT-S</a>
     </td>
     <td align="center">DS</td>
     <td align="center" colspan="2">—</td>
